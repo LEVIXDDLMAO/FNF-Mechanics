@@ -121,7 +121,7 @@ class AudioSource
 
 	@:noCompletion private function set_pitch(v:Float):Float
 	{
-		return __backend.setPitch(v);
+	
 	}
 
 	@:noCompletion private function get_pitch():Float
