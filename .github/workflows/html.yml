@@ -25,7 +25,8 @@ jobs:
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
-          haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit 
+          haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit
+          haxelib install noisehx
           haxelib list
       - name: Compile
         run: haxelib run lime build html5 -final
