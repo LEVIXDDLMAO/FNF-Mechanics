@@ -492,7 +492,7 @@ class FreeplayState extends MusicBeatState
 					});
 					#end
 				}
-			}
+
 			else if (accepted && !disallowActions)
 			{
 				persistentUpdate = false;
