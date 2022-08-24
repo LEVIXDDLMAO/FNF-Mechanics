@@ -120,7 +120,6 @@ class AudioSource
 	}
 
 	@:noCompletion private function set_pitch(v:Float):Float
-	{
 	
 	}
 
